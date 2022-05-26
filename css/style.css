@@ -1,0 +1,43 @@
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* HEADER */
+
+nav a img {
+    height: 70px;
+    padding-left: 20px; 
+}
+
+.btn-nav{
+    background: #44A447;
+    padding: 8px 26px;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid #44A447;
+    transition: all 0.3s ease;
+}
+
+.btn-nav-container:hover .btn-nav{
+    background: white;
+    padding: 8px 26px;
+    color: #44A447;
+    border-radius: 20px;
+    border: 2px solid #44A447;
+    transition: all 0.3s ease;
+}
+
+div ul li{
+    padding: 0px 20px;
+}
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.carousel-inner {
+    max-height: 50rem;
+}
